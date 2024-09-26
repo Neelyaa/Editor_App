@@ -9,32 +9,30 @@
 
 <h2>📄 Caractéristiques</h2>
 
-✨ <b>Authentification et autorisation :</b> Accès utilisateur sécurisé avec inscription, connexion et protection de l'itinéraire.
+✨ <b>Authentification et autorisation :</b> Accès utilisateur sécurisé avec inscription et connexion.
 
-✨ <b>Vitrine d'images communautaires :</b> explorez les transformations des utilisateurs avec une navigation facile grâce à la pagination
+✨ <b>Recherche d'images avancée :</b> Recherchez des images par contenu ou objets présents à l'intérieur de l'image rapidement et avec précision.
 
-✨ <b>Recherche d'images avancée :</b> recherchez des images par contenu ou objets présents à l'intérieur de l'image rapidement et avec précision
+✨ <b>Restauration d'image :</b> Ravivez sans effort des images anciennes ou endommagées.
 
-✨ <b>Restauration d'image :</b> ravivez sans effort des images anciennes ou endommagées
+✨ <b>Recoloration d'image :</b> Personnalisez les images en remplaçant facilement les objets par les couleurs souhaitées.
 
-✨ <b>Recoloration d'image :</b> Personnalisez les images en remplaçant facilement les objets par les couleurs souhaitées
+✨ <b>Remplissage génératif d'image : Remplissez les zones manquantes des images.
 
-✨ <b>Remplissage génératif d'image : remplissez les zones manquantes des images de manière transparente
+✨ <b>Suppression d'objets :</b> Nettoyez les images en supprimant les objets indésirables avec précision.
 
-✨ <b>Suppression d'objets :</b> nettoyez les images en supprimant les objets indésirables avec précision
+✨ <b>Suppression de l'arrière-plan :</b> Extrayez facilement les objets des arrière-plans.
 
-✨ <b>Suppression de l'arrière-plan :</b> extrayez facilement les objets des arrière-plans
+✨ <b>Téléchargez des images transformées :</b> Enregistrez et partagez facilement des images transformées par l'IA.
 
-✨ <b>Téléchargez des images transformées :</b> enregistrez et partagez facilement des images transformées par l'IA
+✨ <b>Détails de l'image transformée :</b> Affichez les détails des transformations pour chaque image.
 
-✨ <b>Détails de l'image transformée :</b> affichez les détails des transformations pour chaque image
+✨ <b>Gestion des transformations :</b> Contrôle de la suppression et des mises à jour des transformations.
 
-✨ <b>Gestion des transformations :</b> Contrôle de la suppression et des mises à jour des transformations
+✨ <b>Système de crédits :</b> Gagnez ou achetez des crédits pour les transformations d'images.
 
-✨ <b>Système de crédits :</b> Gagnez ou achetez des crédits pour les transformations d'images
+✨ <b>Page de profil :</b> Accédez aux images transformées et aux informations de crédit personnel.
 
-✨ <b>Page de profil :</b> accédez aux images transformées et aux informations de crédit personnellement
+✨ <b>Achat de crédits :</b> Achetez des crédits en toute sécurité via Stripe pour une utilisation ininterrompue.
 
-✨ <b>Achat de crédits :</b> Achetez des crédits en toute sécurité via Stripe pour une utilisation ininterrompue
-
-✨ <b>Interface utilisateur/expérience utilisateur réactive :</b> une expérience fluide sur tous les appareils avec une interface conviviale
+✨ <b>Interface utilisateur/expérience utilisateur réactive :</b> Une expérience fluide sur tous les appareils avec une interface conviviale.
