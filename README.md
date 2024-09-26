@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Création d'un site d'édition d'image avec Nextjs, découverte de Cloudinary et Clerk.</h1>
 
-## Getting Started
+<div align="center"><img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" /><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /></div>
 
-First, run the development server:
+<h2>🔗 Lien du projet : </h2>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<h2 alin="center">🔍 Technologies </h2>
+<ul><li>Next.js</li> <li>TypeScript</li><li>MongoDB</li><li>Clerk</li><li>Cloudinary</li><li>Stripe</li><li>Shadcn</li><li>TailwindCSS</li></ul>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2>📄 Caractéristiques</h2>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✨ <b>Authentification et autorisation :</b> Accès utilisateur sécurisé avec inscription, connexion et protection de l'itinéraire.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+✨ <b>Vitrine d'images communautaires :</b> explorez les transformations des utilisateurs avec une navigation facile grâce à la pagination
 
-## Learn More
+✨ <b>Recherche d'images avancée :</b> recherchez des images par contenu ou objets présents à l'intérieur de l'image rapidement et avec précision
 
-To learn more about Next.js, take a look at the following resources:
+✨ <b>Restauration d'image :</b> ravivez sans effort des images anciennes ou endommagées
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✨ <b>Recoloration d'image :</b> Personnalisez les images en remplaçant facilement les objets par les couleurs souhaitées
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+✨ <b>Remplissage génératif d'image : remplissez les zones manquantes des images de manière transparente
 
-## Deploy on Vercel
+✨ <b>Suppression d'objets :</b> nettoyez les images en supprimant les objets indésirables avec précision
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✨ <b>Suppression de l'arrière-plan :</b> extrayez facilement les objets des arrière-plans
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+✨ <b>Téléchargez des images transformées :</b> enregistrez et partagez facilement des images transformées par l'IA
+
+✨ <b>Détails de l'image transformée :</b> affichez les détails des transformations pour chaque image
+
+✨ <b>Gestion des transformations :</b> Contrôle de la suppression et des mises à jour des transformations
+
+✨ <b>Système de crédits :</b> Gagnez ou achetez des crédits pour les transformations d'images
+
+✨ <b>Page de profil :</b> accédez aux images transformées et aux informations de crédit personnellement
+
+✨ <b>Achat de crédits :</b> Achetez des crédits en toute sécurité via Stripe pour une utilisation ininterrompue
+
+✨ <b>Interface utilisateur/expérience utilisateur réactive :</b> une expérience fluide sur tous les appareils avec une interface conviviale
