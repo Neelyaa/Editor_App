@@ -19,7 +19,7 @@
 
 ✨ <b>Recoloration d'image :</b> Personnalisez les images en remplaçant facilement les objets par les couleurs souhaitées.
 
-✨ <b>Remplissage génératif d'image : Remplissez les zones manquantes des images.
+✨ <b>Remplissage génératif d'image :</b> Remplissez les zones manquantes des images.
 
 ✨ <b>Suppression d'objets :</b> Nettoyez les images en supprimant les objets indésirables avec précision.
 
