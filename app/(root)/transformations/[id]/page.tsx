@@ -102,7 +102,7 @@ const ImageDetails = async ({ params: { id } }: SearchParamProps) => {
           <div className="mt-4 space-y-4">
             <Button asChild type="button" className="submit-button">
               <Link href={`/transformations/${image._id}/update`}>
-                Modifier l'image
+                Modifier l&apos;image
               </Link>
             </Button>
 
