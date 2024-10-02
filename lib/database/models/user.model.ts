@@ -28,12 +28,10 @@ lastName: {
 },
 planId: { 
     type: Number, 
-    required: true,
     default: 1, 
 },
 creditBalance: { 
     type: Number, 
-    required: true,
     default: 10, 
 }
 })

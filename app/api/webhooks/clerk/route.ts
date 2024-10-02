@@ -7,11 +7,11 @@ import { NextResponse } from 'next/server'
 import { createUser, deleteUser, updateUser } from '@/lib/actions/user.actions'
 
 export async function POST(req: Request) {
-  // You can find this in the Clerk Dashboard -> Webhooks -> choose the endpoint
+  // Clerk Dashboard -> Webhooks -> choose the endpoint
   const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET
 
   if (!WEBHOOK_SECRET) {
-    throw new Error('Please add WEBHOOK_SECRET from Clerk Dashboard to .env or .env.local')
+    throw new Error('Ajoutez le WEBHOOK_SECRET du dashboard CLerk au fichier .env ou .env.local')
   }
 
   // Get the headers
@@ -44,14 +44,13 @@ export async function POST(req: Request) {
       'svix-signature': svix_signature,
     }) as WebhookEvent
   } catch (err) {
-    console.error('Error verifying webhook:', err)
-    return new Response('Error occured', {
+    console.error('Erreur de webhook:', err)
+    return new Response('Erreur', {
       status: 400,
     })
   }
 
   // Do something with the payload
-  // For this guide, you simply log the payload to the console
   const { id } = evt.data
   const eventType = evt.type
 
@@ -104,10 +103,10 @@ export async function POST(req: Request) {
 
     const deletedUser = await deleteUser(id!);
 
-    return NextResponse.json({ message: "Utilisateur supprimé", user: deleteUser });
+    return NextResponse.json({ message: "Utilisateur supprimé", user: deletedUser });
   }
 
-  console.log(`Webhook with and ID of ${id} and type of ${eventType}`)
+  console.log(`Webhook avec un ID de ${id} et un type de ${eventType}`)
   console.log('Webhook body:', body)
 
   return new Response('', { status: 200 })

@@ -25,7 +25,7 @@ export const navLinks = [
         icon: "/assets/icons/filter.svg",
     },
     {
-        label: "Supprimer l'arrière-plan",
+        label: "Retrait d'arrière-plan",
         route: "/transformations/add/removeBackground",
         icon: "/assets/icons/camera.svg",
     },
@@ -54,7 +54,7 @@ export const plans = [
                 isIncluded: true,
             },
             {
-                label: "Accès de base aux services",
+                label: "Accès aux services de base",
                 isIncluded: true,
             },
             {
@@ -129,22 +129,22 @@ export const transformationsTypes = {
     },
     removeBackground: {
         type: "removeBackground",
-        title: "Supprimer l'arrière-plan",
-        subTitle: "Supprime l'arrière-plan de l'image à l'aide de l'IA",
+        title: "Retrait d'arrière-plan",
+        subTitle: "Supprimer l'arrière-plan de l'image à l'aide de l'IA",
         config: { removeBackground: true },
         icon: "camera.svg",
     },
     fill: {
         type: "fill",
         title: "Remplissage",
-        subTitle: "Améliorez les dimensions d'une image à l'aide de l'IA",
+        subTitle: "Améliorer les dimensions d'une image à l'aide de l'IA",
         config: { fillBackground: true },
         icon: "stars.svg",
     },
     remove: {
         type: "remove",
         title: "Retrait d'objets",
-        subTitle: "Identifier et éliminer des objets des images",
+        subTitle: "Identifier et éliminer des objets présent sur l'image",
         config: {
             remove: { prompt: "", removeShadow: true, multiple: true },
         },
@@ -155,7 +155,7 @@ export const transformationsTypes = {
         title: "Recoloration",
         subTitle: "Identifier et recolorer les objets à partir de l'image",
         config: {
-            recolor: { prompt: "", to: "", multiple: true }
+            recolor: { prompt: "", to: "", multiple: true },
         },
         icon: "filter.svg"
     },
@@ -164,19 +164,19 @@ export const transformationsTypes = {
 export const aspectRatioOptions = {
     "1:1": {
         aspectRatio: "1:1",
-        label: "Square (1:1)",
+        label: "Carré (1:1)",
         width: 1000,
         height: 1000,
     },
     "3:4": {
-        aspectRatio: "3:4",
-        label: "Standard Portrait (3:4)",
+        aspectRatio: "4:3",
+        label: "Portrait standard (4:3)",
         width: 1000,
         height: 1334,
     },
     "9:16": {
-        aspectRatio: "9:16",
-        label: "Phone Portrait (9:16)",
+        aspectRatio: "16:9",
+        label: "Portrait mobile (9:16)",
         width: 1000,
         height: 1778,
     },

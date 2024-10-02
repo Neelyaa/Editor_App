@@ -224,16 +224,16 @@
   }
 
   .home-heading {
-    @apply h1-semibold max-w-[500px] flex-wrap text-center text-white shadow-sm;
+    @apply h1-semibold max-w-[500px] flex-wrap text-center text-white;
   }
 
   /***** CREDITS PAGE *****/
   .credits-list {
-    @apply mt-11 grid grid-cols-1 gap-5 sm:grid-cols-2 ld:gap-9 xl:grid-cols-3;
+    @apply mt-11 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:gap-9 xl:grid-cols-3;
   }
 
   .credits-item {
-    @apply w-full rounded-[16px] border-2 border-purple-200/20 bg-white p-8 shadow-purple-200/20 lg:max-w-none;
+    @apply w-full rounded-[16px] border-2 border-purple-200/20 bg-white p-8 shadow-xl shadow-purple-200/20 lg:max-w-none;
   }
 
   .credits-btn {
@@ -255,7 +255,7 @@
 
   /***** TRANSFORMATION DETAILS *****/
   .transformation-grid {
-    @apply grid h-fit min-h-[200px] grid-cols-1 gap-54 py-8 md:grid-cols-2;
+    @apply grid h-fit min-h-[200px] grid-cols-1 gap-5 py-8 md:grid-cols-2;
   }
 
   .transformation-original_image {
@@ -280,7 +280,7 @@
   }
 
   .collection-card {
-    @apply flex flex-1 cursor-pointer flex-col gap-5 rouned-[16px] border-2 border-purple-200/15 bg-white p-4 shadow-xl shadow-purple-200/10 transition-all hover:shadow-purple-200/20;
+    @apply flex flex-1 cursor-pointer flex-col gap-5 rounded-[16px] border-2 border-purple-200/15 bg-white p-4 shadow-xl shadow-purple-200/10 transition-all hover:shadow-purple-200/20;
   }
 
   /***** MEDIAUPLOADER COMPONENT *****/
@@ -344,7 +344,7 @@
     @apply grid h-fit min-h-[200px] grid-cols-1 gap-5 py-4 md:grid-cols-2;
   }
 
-  /***** TRANFORMED IMAGE COMPONENT *****/
+  /***** TRANSFORMED IMAGE COMPONENT *****/
   .download-btn {
     @apply p-14-medium mt-2 flex items-center gap-2 px-2;
   }
@@ -354,7 +354,7 @@
   }
 
   .transforming-loader {
-    @apply flex-center absolute left-[50%] size-full -translate-x-1/2 -translate-y-1/2 flex-col gap-2 rounded-[10px] border bg-dark-700/90;
+    @apply flex-center absolute left-[50%] top-[50%] size-full -translate-x-1/2 -translate-y-1/2 flex-col gap-2 rounded-[10px] border bg-dark-700/90;
   }
 
   .transformed-placeholder {

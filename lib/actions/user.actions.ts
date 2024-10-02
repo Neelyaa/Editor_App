@@ -71,20 +71,22 @@ export async function deleteUser(clerkId: string) {
     }
 }
 
-// USER CREDITS
+// USE CREDITS
 export async function updateCredits(userId: string, creditFee: number) {
+
     try {
         await connectToDatabase();
 
-        const updateUserCredits = await User.findOneAndUpdate(
+        const updatedUserCredits = await User.findOneAndUpdate(
             { _id: userId },
-            { $inc: { creditBalance: creditFee } },
+            { $inc: { creditBalance: creditFee }},
             { new: true }
         )
 
-        if (!updateUserCredits) throw new Error("Erreur lors de l'ajout de crédit");
+        if (!updatedUserCredits) throw new Error("Erreur lors de l'ajout de crédit");
 
-        return JSON.parse(JSON.stringify(updateUserCredits));
+        return JSON.parse(JSON.stringify(updatedUserCredits));
+        
     } catch (error) {
         handleError(error);
     }
