@@ -2,7 +2,9 @@
 
 <div align="center"><img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" /><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /></div>
 
-<h2>🔗 Lien du projet : </h2>
+<div align="center"> <h2>🔗 Lien du projet : https://editor-app-n.vercel.app/ <br>🔗 Project's link : https://editor-app-n.vercel.app/ </h2></div>
+
+ <img src="https://github.com/user-attachments/assets/1230bc17-f7d2-4a54-bd9d-2a6fcfa1cdf5" />
 
 <h2 alin="center">🔍 Technologies </h2>
 <ul><li>Next.js</li> <li>TypeScript</li><li>MongoDB</li><li>Clerk</li><li>Cloudinary</li><li>Stripe</li><li>Shadcn</li><li>TailwindCSS</li></ul>
